@@ -1,11 +1,11 @@
 const express = require('express')
 const router = express.Router()
-const homeController = require('../controllers/homeController')
-const bookController = require('../controllers/bookController')
+const mainController = require('../controllers/mainController')
+const registrationController = require('../controllers/registrationController')
 
-router.get('/', homeController.get)
-router.get('/book', bookController.get)
-router.post('/book', bookController.post)
+router.get('/', mainController.get)
+router.get('/register', registrationController.get)
+router.post('/register', registrationController.post)
 
 
 

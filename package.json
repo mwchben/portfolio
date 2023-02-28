@@ -4,7 +4,8 @@
   "description": "docker-deploy these portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/mwchben/portfolio#readme",
   "dependencies": {
     "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
     "express-ejs-layouts": "^2.5.1"
   }
 }
