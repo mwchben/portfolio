@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "docker-deploy these portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwchben/portfolio.git"
+  },
+  "keywords": [
+    "express",
+    "docker",
+    "imaging",
+    "static-site"
+  ],
+  "author": "mwchben",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mwchben/portfolio/issues"
+  },
+  "homepage": "https://github.com/mwchben/portfolio#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express-ejs-layouts": "^2.5.1"
+  }
+}
