@@ -5,11 +5,11 @@ const path = require('path')
 
 const PORT = process.env.PORT || 3005
 const app = express()
-const homeRoute = require('./routes/homeRouter.js')
+const mainRoute = require('./routes/mainRouter.js')
 
 app.use(express.static(path.join(__dirname, 'public')))
 app.use(expressLayouts)
-app.use('/', homeRoute)
+app.use('/', mainRoute)
 
 // Set 'views' directory for any views being rendered by res.render()
 
