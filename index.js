@@ -1,5 +1,5 @@
 const express = require('express')
-const expressLayouts = require('express-ejs-layouts')
+// const expressLayouts = require('express-ejs-layouts')
 const cookie = require('cookie-parser')
 const path = require('path')
 
@@ -8,7 +8,7 @@ const app = express()
 const mainRoute = require('./routes/mainRouter.js')
 
 app.use(express.static(path.join(__dirname, 'public')))
-app.use(expressLayouts)
+// app.use(expressLayouts)
 app.use('/', mainRoute)
 
 // Set 'views' directory for any views being rendered by res.render()
