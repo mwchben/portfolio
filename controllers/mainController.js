@@ -1,3 +1,3 @@
 exports.get = async (req, res) => {
-    res.render('home')
+    res.render('index')
 }
