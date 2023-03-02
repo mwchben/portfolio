@@ -7,6 +7,8 @@ const PORT = process.env.PORT || 3005
 const app = express()
 const mainRoute = require('./routes/mainRouter.js')
 
+app.use(express.static('public'))
+
 app.use(express.static(path.join(__dirname, 'public')))
 // app.use(expressLayouts)
 app.use('/', mainRoute)
