@@ -34,6 +34,8 @@ get container ID and log status
 
 test port with `~# docker port containerID`
 
+### 6
 
+check port for container `~# docker container ls`
 
 
