@@ -2,7 +2,7 @@
 Sample Portfolio Webpage for docker deployment
 
 ## docker101
-using `kebectl` to deploy/...
+using docker to deploy this application, work in progress.
 
 ## Steps
 
