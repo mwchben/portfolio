@@ -42,4 +42,8 @@ test port with `~# docker port containerID`
 
 check port for container `~# docker container ls`
 
+### 7
+
+see output of console inside the container/ see port running
+`~# docker logs -f docker_name`
 
