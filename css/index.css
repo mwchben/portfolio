@@ -4,9 +4,16 @@
   }
 }
 
-body,h1 {font-family: "Raleway", Arial, sans-serif}
-    h1 {letter-spacing: 6px}
-    .w3-row-padding img {margin-bottom: 12px}
+body,
+h1 {
+  font-family: "Raleway", Arial, sans-serif;
+}
+h1 {
+  letter-spacing: 6px;
+}
+.w3-row-padding img {
+  margin-bottom: 12px;
+}
 
 html,
 body {
@@ -15,4 +22,9 @@ body {
 
 .full-height {
   height: 100%;
+}
+
+.body-font {
+  font-weight: 400;
+  margin: 10px 0;
 }
