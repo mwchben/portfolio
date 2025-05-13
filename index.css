@@ -1,0 +1,27 @@
+body {
+    background-color: #F6F0F0;
+    color: #D5C7A3;
+}
+
+.styled-center {
+    padding: 64px 16px;
+}
+
+
+/* .........font.......... */
+.font-attr {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.large-font {
+    font-size: 24px !important;
+}
+
+
+/* .........text.......... */
+.text-center {
+    text-align: center !important;
+}
