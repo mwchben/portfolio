@@ -1,39 +1,65 @@
 body {
-    background-color: #4a4848;
-    color: #D5C7A3;
+  background-color: #4a4848;
+  color: #d5c7a3;
 }
 
 .styled-center {
-    padding: 64px 16px;
+  padding: 64px 16px;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.content {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .marg-d {
-   margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .marg-t {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-
 /* .........font.......... */
-.font-attr {
+
+
+.roboto {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 
+.inconsolata {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 .large-font {
-    font-size: 24px !important;
+  font-size: 24px !important;
 }
 
 .larger-font {
-    font-size: 36px !important;
+  font-size: 36px !important;
 }
 
+.medium-font {
+    font-size: 22px;
+}
 
 /* .........text.......... */
 .text-center {
-    text-align: center !important;
+  text-align: center !important;
 }
