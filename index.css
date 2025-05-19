@@ -1,4 +1,10 @@
+html {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
   background-color: #4a4848;
   color: #d5c7a3;
 }
@@ -26,6 +32,15 @@ body {
 
 .marg-t {
   margin-top: 10px;
+}
+
+.padd16 {
+  padding: 16px;
+}
+
+.padd-tb-64 {
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 /* .........font.......... */
