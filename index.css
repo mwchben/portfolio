@@ -5,12 +5,13 @@ html {
 
 body {
   margin: 0;
-  background-color: #4a4848;
-  color: #d5c7a3;
+  height: 100%;
+  background-color: #1C1C1C;
+  color: #F5E8D8;
 }
 
 .styled-center {
-  padding: 64px 16px;
+  padding: 120px 16px 0 16px;
 }
 
 .container {
@@ -62,15 +63,15 @@ body {
 }
 
 .large-font {
-  font-size: 24px !important;
+  font-size: 22px !important;
 }
 
 .larger-font {
-  font-size: 36px !important;
+  font-size: 32px !important;
 }
 
 .medium-font {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .small-font {
@@ -82,28 +83,43 @@ body {
   text-align: center !important;
 }
 
+.social-links li:not(:last-child) {
+  margin-right: .8rem;
+}
+
+.social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.social-links li {
+  display: inline-block;
+}
+
 
 /*.........links.......*/
 
 
 a {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid inherit;
   display: inline-block;
   line-height: 1em;
-  color: inherit;
+  color: #FF6F61;
   text-decoration: none;
 }
 
 a:hover {
-  color: #fff;
+  color: #FF4500;
   cursor: pointer;
   text-shadow: none !important;
 }
 a:active {
-  color: #fff;
+  color: #FF4500;
   text-shadow: none !important;
 }
 a:visited {
-  color: #fff;
+  color: #DAA520;
   text-shadow: none !important;
 }
