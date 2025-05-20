@@ -1,0 +1,7 @@
+@media only screen and (max-device-width: 474px) {
+  .container {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+  }
+}

@@ -96,5 +96,14 @@ a {
 
 a:hover {
   color: #fff;
+  cursor: pointer;
+  text-shadow: none !important;
+}
+a:active {
+  color: #fff;
+  text-shadow: none !important;
+}
+a:visited {
+  color: #fff;
   text-shadow: none !important;
 }
