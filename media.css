@@ -4,4 +4,16 @@
     width: 90%;
     padding: 10px;
   }
+
+  hr {
+  margin: 40px auto;
+  width: 90%;
+  color: #DAA520;
+}
+
+.social-links li {
+  display:list-item;
+  margin-bottom: 10px;
+}
+
 }
