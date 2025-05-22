@@ -6,14 +6,14 @@ html {
 body {
   margin: 0;
   height: 100%;
-  background-color: #1C1C1C;
-  color: #F5E8D8;
+  background-color: #1c1c1c;
+  color: #f5e8d8;
 }
 
 hr {
   margin: 40px auto;
   width: 20%;
-  color: #DAA520;
+  color: #daa520;
 }
 
 .styled-center {
@@ -51,7 +51,6 @@ hr {
 
 /* .........font.......... */
 
-
 .roboto {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
@@ -64,12 +63,11 @@ hr {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 .large-font {
-  font-size: 22px !important;
+  font-size: 26px !important;
 }
 
 .larger-font {
@@ -77,23 +75,30 @@ hr {
 }
 
 .medium-font {
-    font-size: 20px;
+  font-size: 22px;
 }
 
 .small-font {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 /* .........text.......... */
+
+ul {
+  list-style-type: none;;
+}
+
+.left-text {
+  text-align: left;
+}
+
 .text-center {
   text-align: center !important;
 }
 
 .social-links li:not(:last-child) {
-  margin-right: .8rem;
+  margin-right: 0.8rem;
 }
-
-
 
 .social-links {
   list-style: none;
@@ -106,27 +111,25 @@ hr {
   display: inline-block;
 }
 
-
-
-
 /*.........links.......*/
-
 
 a {
   border-bottom: 2px solid inherit;
   display: inline-block;
   line-height: 1em;
-  color: #FF6F61;
+  color: #ff6f61;
   text-decoration: none;
 }
 
 a:hover {
-  color: #FF4500;
+  color: #ff4500;
   cursor: pointer;
   text-decoration: underline;
   text-shadow: none !important;
 }
 a:active {
-  color: #FF4500;
+  color: #ff4500;
   text-shadow: none !important;
 }
+
+

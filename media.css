@@ -6,14 +6,13 @@
   }
 
   hr {
-  margin: 40px auto;
-  width: 90%;
-  color: #DAA520;
-}
+    margin: 40px auto;
+    width: 90%;
+    color: #daa520;
+  }
 
-.social-links li {
-  display:list-item;
-  margin-bottom: 10px;
-}
-
+  .social-links li {
+    display: list-item;
+    margin-bottom: 10px;
+  }
 }
