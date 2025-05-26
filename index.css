@@ -4,20 +4,21 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   height: 100%;
   background-color: #1c1c1c;
   color: #f5e8d8;
+  text-align: center !important;
 }
 
 hr {
-  margin: 40px auto;
+  margin: 1.25em auto;
   width: 20%;
-  color: #daa520;
+  color: #f5e8d8;
 }
 
 .styled-center {
-  padding: 120px 16px 0 16px;
+  padding: 60px 16px 0 16px;
 }
 
 .container {
@@ -33,20 +34,24 @@ hr {
 }
 
 .marg-d {
-  margin-bottom: 10px;
+  /* 10px */
+  margin-bottom: 0.625em;
 }
 
 .marg-t {
-  margin-top: 10px;
+  /* 10px */
+  margin-top: 0.625em;
 }
 
 .padd16 {
-  padding: 16px;
+  /* 16px */
+  padding: 1em;
 }
 
-.padd-tb-64 {
-  padding-top: 64px;
-  padding-bottom: 64px;
+.padd-tb-16 {
+  /* 64px */
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 /* .........font.......... */
@@ -54,32 +59,33 @@ hr {
 .roboto {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 600;
+  /* font-weight: 500; */
   font-style: normal;
 }
 
 .inconsolata {
   font-family: "Inconsolata", monospace;
   font-optical-sizing: auto;
-  font-weight: 500;
+  /* font-weight: 500; */
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
 
-.large-font {
-  font-size: 26px !important;
-}
-
-.larger-font {
-  font-size: 32px !important;
+.small-font {
+  font-size: 0.875em;
 }
 
 .medium-font {
-  font-size: 22px;
+  font-size: 1.125em;
 }
 
-.small-font {
-  font-size: 18px;
+.large-font {
+  font-size: 1.18em !important; 
+  /* 22px */
+}
+
+.larger-font {
+  font-size: 1.375em !important;
 }
 
 /* .........text.......... */
@@ -90,10 +96,6 @@ ul {
 
 .left-text {
   text-align: left;
-}
-
-.text-center {
-  text-align: center !important;
 }
 
 .social-links li:not(:last-child) {
@@ -124,7 +126,6 @@ a {
 a:hover {
   color: #ff4500;
   cursor: pointer;
-  text-decoration: underline;
   text-shadow: none !important;
 }
 a:active {
@@ -133,3 +134,32 @@ a:active {
 }
 
 
+/* my github styling */
+a.button.two:before, a.button.two:after{
+  opacity: 0;
+  transition: all 0.3s ease;  
+  font-size: 20px;
+}
+a.button.two:before{
+  content: '{';
+}
+a.button.two:after{
+  content: '}';
+}
+
+a.button.two:hover:before{
+  margin-right: 10px;
+  content: '{';
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  transform: translateX(20px);
+  opacity: 1;
+}
+a.button.two:hover:after{
+  margin-left: 10px;
+  content: '}';
+  -webkit-transform: translateX(-20px);
+  -moz-transform: translateX(-20px);
+  transform: translateX(-20px);
+  opacity: 1;
+}
