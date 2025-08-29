@@ -11,10 +11,23 @@ body {
   text-align: center !important;
 }
 
+.light-mode body {
+  background-color: #f5e8d8;
+  color: #1c1c1c;
+}
+
 hr {
   margin: 1.25em auto;
   width: 40%;
   color: #daa520;
+}
+
+.material-symbols-outlined {
+cursor: pointer;
+}
+
+.light-mode hr {
+  color: #1c1c1c;
 }
 
 .styled-center {
@@ -124,18 +137,27 @@ a {
   text-decoration: none;
 }
 
+.light-mode a {
+  color: #0290f5;
+}
+
 a.inline {
   color: #f5e8d8;
 }
 
-a:hover {
+.light-mode a.inline {
+  color: #1c1c1c;
+}
+
+a:hover, a:active {
   color: #ff4500;
   cursor: pointer;
   text-shadow: none !important;
 }
-a:active {
-  color: #ff4500;
-  text-shadow: none !important;
+
+.light-mode a:hover,
+.light-mode a:active {
+  color: #005599;
 }
 
 
