@@ -120,8 +120,12 @@ a {
   border-bottom: 2px solid inherit;
   display: inline-block;
   line-height: 1em;
-  color: #ff6f61;
+  color: #fc9389;
   text-decoration: none;
+}
+
+a.inline {
+  color: #f5e8d8;
 }
 
 a:hover {
