@@ -143,6 +143,9 @@ a {
 
 a.inline {
   color: #f5e8d8;
+text-decoration: underline;
+font-style: italic;
+
 }
 
 .light-mode a.inline {
